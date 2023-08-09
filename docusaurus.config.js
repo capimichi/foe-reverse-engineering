@@ -20,6 +20,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'capimichi', // Usually your GitHub org/user name.
   projectName: 'foe-reverse-engineering', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
 
   trailingSlash: false,
 
@@ -66,10 +67,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Foe Reverse Engineering',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Foe Reverse Engineering Logo',
+          src: 'img/logo.jpeg',
         },
         items: [
           {
